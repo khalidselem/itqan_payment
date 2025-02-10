@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include itqan_integration *.css
+recursive-include itqan_integration *.csv
+recursive-include itqan_integration *.html
+recursive-include itqan_integration *.ico
+recursive-include itqan_integration *.js
+recursive-include itqan_integration *.json
+recursive-include itqan_integration *.md
+recursive-include itqan_integration *.png
+recursive-include itqan_integration *.py
+recursive-include itqan_integration *.svg
+recursive-include itqan_integration *.txt
+recursive-exclude itqan_integration *.pyc
